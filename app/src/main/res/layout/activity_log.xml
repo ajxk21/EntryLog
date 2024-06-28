@@ -1,10 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="match_parent"
+<LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".log">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RECORDS"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_margin="7dp"
+        android:textColor="#000000"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name:"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="	#D3D3D3">
+
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admission no:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+
+
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/adno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter admission no:"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="	#D3D3D3">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System no:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+
+
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/sysno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter System no:"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="	#D3D3D3">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+
+
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/dpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Department:"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="	#D3D3D3">
+
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD TO RECORDS"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/addb"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/logout"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>
