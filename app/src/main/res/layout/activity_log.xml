@@ -2,7 +2,7 @@
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:background="#FFFFFF"
+    android:background="@drawable/draw"
     android:gravity="center">
     <TextView
         android:layout_width="match_parent"

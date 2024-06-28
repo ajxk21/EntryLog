@@ -4,12 +4,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:padding="30px"
-    android:background="#FFFFFF"
+    android:background="@drawable/draw"
     android:gravity="center">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/googoo">
+
+    </ImageView>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LOGBOOK"
+        android:text="WHOTSAPP"
         android:textAlignment="center"
         android:textSize="30dp"
         android:layout_margin="20dp"
@@ -62,7 +68,10 @@
         android:inputType="textWebPassword"
         android:minHeight="48dp"
         android:textColor="@color/black"
-        android:textColorHint="	#D3D3D3"></EditText>
+        android:textColorHint="	#D3D3D3"
+        android:drawableLeft="@drawable/baseline_360_24">
+
+    </EditText>
 
 
 
